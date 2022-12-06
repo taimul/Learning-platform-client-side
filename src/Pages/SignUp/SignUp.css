@@ -1,0 +1,15 @@
+.main {
+    width: 35%;
+    background-color: rgb(239, 239, 247);
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .main {
+        width: 100%;
+    }
+}

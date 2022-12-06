@@ -1,0 +1,41 @@
+.bg {
+    background-image: url(../../Assets/bg-endless.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    color: white;
+    padding: 20px;
+}
+
+.bg-t {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(160, 148, 148);
+}
+
+.lesson {
+    background-color: darkslategray;
+    width: fit-content;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pdf {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .bg {
+        display: grid;
+    }
+
+    .img {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,14 @@
+.left-nav-bar {
+
+    padding: 30px;
+
+}
+
+.left-nav-bar p>a {
+    text-decoration: none;
+    color: #606365;
+}
+
+.left-nav-bar p>a:hover {
+    color: rgb(60, 201, 79);
+}
